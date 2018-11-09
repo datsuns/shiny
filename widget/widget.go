@@ -5,16 +5,16 @@
 // Package widget provides graphical user interface widgets.
 //
 // TODO: give an overview and some example code.
-package widget // import "golang.org/x/exp/shiny/widget"
+package widget // import "github.com/datsuns/shiny/widget"
 
 import (
 	"image"
 
-	"golang.org/x/exp/shiny/gesture"
-	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/gesture"
+	"github.com/datsuns/shiny/screen"
+	"github.com/datsuns/shiny/unit"
+	"github.com/datsuns/shiny/widget/node"
+	"github.com/datsuns/shiny/widget/theme"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/mouse"

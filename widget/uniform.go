@@ -8,8 +8,8 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/widget/node"
+	"github.com/datsuns/shiny/widget/theme"
 )
 
 // Uniform is a shell widget that paints a uniform color, analogous to an

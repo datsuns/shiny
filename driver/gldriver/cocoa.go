@@ -36,8 +36,8 @@ import (
 	"runtime"
 	"unsafe"
 
-	"golang.org/x/exp/shiny/driver/internal/lifecycler"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/datsuns/shiny/driver/internal/lifecycler"
+	"github.com/datsuns/shiny/screen"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/mouse"
 	"golang.org/x/mobile/event/paint"

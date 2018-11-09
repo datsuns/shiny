@@ -8,10 +8,10 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/text"
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/text"
+	"github.com/datsuns/shiny/unit"
+	"github.com/datsuns/shiny/widget/node"
+	"github.com/datsuns/shiny/widget/theme"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 )

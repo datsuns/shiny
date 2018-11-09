@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/datsuns/shiny/screen"
 )
 
 func newWindow(opts *screen.NewWindowOptions) (uintptr, error) { return 0, nil }

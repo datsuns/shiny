@@ -13,8 +13,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/exp/shiny/driver/internal/win32"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/datsuns/shiny/driver/internal/win32"
+	"github.com/datsuns/shiny/screen"
 )
 
 var theScreen = &screenImpl{

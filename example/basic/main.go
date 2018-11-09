@@ -18,9 +18,9 @@ import (
 	"log"
 	"math"
 
-	"golang.org/x/exp/shiny/driver"
-	"golang.org/x/exp/shiny/imageutil"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/datsuns/shiny/driver"
+	"github.com/datsuns/shiny/imageutil"
+	"github.com/datsuns/shiny/screen"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/lifecycle"

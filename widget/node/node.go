@@ -39,14 +39,14 @@
 // widget.NewButton or widget.NewLabel, and then parent.Insert(button, nil).
 //
 // See the example/gallery program for some example code for a custom widget.
-package node // import "golang.org/x/exp/shiny/widget/node"
+package node // import "github.com/datsuns/shiny/widget/node"
 
 import (
 	"image"
 
-	"golang.org/x/exp/shiny/gesture"
-	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/gesture"
+	"github.com/datsuns/shiny/screen"
+	"github.com/datsuns/shiny/widget/theme"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/mouse"

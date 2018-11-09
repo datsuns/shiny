@@ -4,7 +4,7 @@
 
 // +build example
 //
-// This build tag means that "go install golang.org/x/exp/shiny/..." doesn't
+// This build tag means that "go install github.com/datsuns/shiny/..." doesn't
 // install this example program. Use "go run main.go" to run it or "go install
 // -tags=example" to install it.
 
@@ -19,13 +19,13 @@ import (
 	"log"
 	"math"
 
-	"golang.org/x/exp/shiny/driver/gldriver"
-	"golang.org/x/exp/shiny/screen"
-	"golang.org/x/exp/shiny/unit"
-	"golang.org/x/exp/shiny/widget"
-	"golang.org/x/exp/shiny/widget/flex"
-	"golang.org/x/exp/shiny/widget/glwidget"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/driver/gldriver"
+	"github.com/datsuns/shiny/screen"
+	"github.com/datsuns/shiny/unit"
+	"github.com/datsuns/shiny/widget"
+	"github.com/datsuns/shiny/widget/flex"
+	"github.com/datsuns/shiny/widget/glwidget"
+	"github.com/datsuns/shiny/widget/theme"
 	"golang.org/x/image/colornames"
 	"golang.org/x/mobile/gl"
 )

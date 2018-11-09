@@ -7,8 +7,8 @@ package widget
 import (
 	"image"
 
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/datsuns/shiny/widget/node"
+	"github.com/datsuns/shiny/widget/theme"
 )
 
 // TODO: padding, alignment.
